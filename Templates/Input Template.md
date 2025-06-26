@@ -1,26 +1,29 @@
+
+Target ESM: RHESSys, https://github.com/RHESSys/RHESSys.git, develop branch 
+# If this is a parameter classification input (e.g species map) Select type of parameter classification: geology, plant, landuse, climate
+parameter_classification []
+
+# If this is NOT a parameter classification input (e.g species map) Select type of input, options - meterology,  nutrient (e.g fertilizer, N-depostion), water (irrigation), exogenous disturbance 
+parameter_classification []
 # Tags
-	
-Input
+
+
 # Sources
 	# Databases
 	# Models
-	# References
-	
 
-# Scale
-	# Space
-		# Range
-		 
-	 # Time
-		 # Range
-		 
-	 
+# Downscaling / Upscaling approaches
+
+	 # Aproaches (names or equations)
+	 # References
+
+		  
 # Reference
-	# Uncertainty
-	# Error
-	# Product Evaluation
+	
+	# Product Evaluation, Error/Uncertainty
 	 # Physical understanding
-	  # Importance for Modeling
+	 
+	
 
 
 	

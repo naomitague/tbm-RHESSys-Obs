@@ -10,13 +10,11 @@ process
 
 # Literature References
 ## References for model in Target ESM
+
+leaf_conductance_LWP_curve
 ## Alternative Model References
 
 # Limitations of process implementation used in target ESM
-
-# Observations
-	# techniques
-	 # datasets
 
 
 
@@ -24,13 +22,10 @@ process
 # Details of  from target ESM model code
 ##  Variables
 ### fluxes
- names
- observations
 ### stores/state variable
-names
-observations
 
-	
+### multipliers
+
 
 ## parameters (name )
 

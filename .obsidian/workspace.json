@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c36c6f25c0998102",
+            "id": "cee09bdd3c0c69a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Templates/Process Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Process Template"
             }
           },
           {
-            "id": "dadefff1a76d9b3e",
+            "id": "094e7979bc1e2f16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Processes/Water/Vertical Water/(Vertical) Water Overview.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(Vertical) Water Overview"
-            }
-          },
-          {
-            "id": "d86c1921eedc58c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processes/Water/Lateral Water/Lateral Water Overview.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lateral Water Overview"
+              "title": "README"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Processes/Water/Lateral Water/Lateral Water Overview.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lateral Water Overview"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -142,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Processes/Water/Lateral Water/Lateral Water Overview.md",
+                "file": "Processes and Overviews/Stomatal_Conductance_RHESSys_Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lateral Water Overview"
+              "title": "Outgoing links from Stomatal_Conductance_RHESSys_Template"
             }
           },
           {
@@ -171,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Processes/Water/Lateral Water/Lateral Water Overview.md",
+                "file": "Processes and Overviews/Stomatal_Conductance_RHESSys_Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lateral Water Overview"
+              "title": "Outline of Stomatal_Conductance_RHESSys_Template"
             }
           }
         ]
@@ -197,37 +183,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d86c1921eedc58c9",
+  "active": "094e7979bc1e2f16",
   "lastOpenFiles": [
-    "Processes/Water/Vertical Water/(Vertical) Water Overview.md",
-    "Canopy water storage.md",
+    "f(Ψ_leaf).md",
+    "f(LWP).md",
+    "Processes and Overviews/psi_threshold_psi_wilt_parameters.md",
+    "Processes and Overviews/Stomatal_Conductance_RHESSys_Template.md",
+    "Processes and Overviews/stomatal_conductance_LWP.md",
+    "Templates/Output Template.md",
+    "Templates/Input Template.md",
+    "Templates/Parameter Template.md",
+    "Processes and Overviews/Stomatal_Conductance_Corrected.md",
+    "Templates/Process Template.md",
+    "Processes and Overviews/stomatal conductance response to soil water availability.md",
+    "Templates/Overview Template.md",
+    "Untitled.md",
+    "Processes and Overviews/Stomatal_Conductance_Template_Format.md",
+    "Processes and Overviews/Stomatal_Conductance corrected.md",
+    "Stomatal Conductance.md",
     "RHESSys Overview.md",
     "Spatial Representation.md",
-    "Evaporation.md",
-    "Templates/Parameter Template.md",
-    "Templates/Process Template.md",
-    "Litter water storage.md",
     "Atmospheric Conductance.md",
-    "Welcome.md",
-    "2025-06-17.md",
+    "Evaporation.md",
+    "Litter water storage.md",
+    "Processes and Overviews/Energy/Energy Overview.md",
+    "Processes and Overviews/Nitrogen",
+    "Processes/stomatal_conductance_ai.md",
+    "Processes/atmospheric_conductance_corrected.md",
+    "Processes/stomatal_conductance_corrected.md",
+    "Processes/atmospheric_conductance_ai.md",
+    "Parameters",
+    "untitled folder",
     "Untitled 2.canvas",
-    "Processes/Water/Lateral Water/Lateral Water Overview.md",
-    "Templates/Input Template.md",
-    "Input.md",
     "Untitled 1",
     "Processes/Water/Lateral Water",
-    "Untitled",
-    "Untitled.md",
-    "2025-05-01.md",
     "Untitled.canvas",
-    "Stomatal Conductance.md",
     "Templates",
     "Untitled 1.canvas",
-    "Processes/Water",
+    "Processes and Overviews/Water",
     "Processes/Water/Vertical Water",
     "Strategies for Parameter Uncertainty",
-    "Processes/Energy",
-    "Processes/Carbon",
-    "Strategies for Parameter Uncertainty/Untitled"
+    "Processes and Overviews/Energy"
   ]
 }
