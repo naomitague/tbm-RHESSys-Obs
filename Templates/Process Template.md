@@ -15,21 +15,17 @@ process
 # Limitations of process implementation used in target ESM
 
 # Observations
-## techniques
-## datasets
 
 
 
-
-# Details of  from target ESM model code
+# Details  from target ESM model code
 ##  Variables
-### fluxes
-### stores/state variable
+### flux variable names
+### stores/state variable names
 
-	
+### parameters 
 
-## parameters (name )
-
+###inputs
 
 ## Code source file and function names in which process is updated
 ## Code source file in which code is called updated variables are used directly (limit to 4 if used in multiple places)

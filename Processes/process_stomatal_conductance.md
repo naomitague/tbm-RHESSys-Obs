@@ -4,10 +4,10 @@ Target ESM: RHESSys, https://github.com/RHESSys/RHESSys.git, develop branch
 # Tags
 process
 
-alias:: [gs]
+alias:: [gs, stomatal conductance]
 
 # Conceptual model
-Stomatal conductance (gₛ) is modeled in RHESSys using a Jarvis-type multiplicative approach. Stomatal conductance regulates water and carbon exchange between the leaf and atmosphere and is scaled from a maximum value (gs_max) based on environmental modifiers for light (PPFD), vapor pressure deficit (VPD), air temperature, CO₂ concentration, and root access to water via leaf water potential.
+Stomatal conductance is the rate of  water and carbon exchange between the leaf and surrounding air through small pores in the leaf called stomates. The exchange is a diffusive process and thus varies with gradients (in water, O2 and CO2) and energy. However, the stomates  can open and close to  regulate this rate.  Stomatal conductance (gₛ) is modeled in RHESSys using a Jarvis-type multiplicative approach. where a species specific maximum value (gs_max) is scalaed based on environmental modifiers for light (PPFD), vapor pressure deficit (VPD), air temperature, CO₂ concentration, and root access to water via leaf water potential.
 
 # Model Name (as implemented in the target ESM if there is a standard name e.g Penman monteith)
 Jarvis multiplicative stomatal conductance model (after Jarvis 1976, via BIOME-BGC formulation)
@@ -35,6 +35,8 @@ Where:
 
 - Damour, Gaëlle, Thierry Simonneau, Hervé Cochard, and Laurent Urban (2010). "An overview of models of stomatal conductance at the leaf level." _Plant, cell & environment_ 33, no. 9 (2010): 1419-1438.-
 - - Medlyn, B. E., Duursma, R. A., Eamus, D., Ellsworth, D. S., Prentice, I. C., Barton, C. V. M., et al. (2011). Reconciling the optimal and empirical approaches to modelling stomatal conductance. Global Change Biology, 17(6), 2134–2144. https://doi.org/10.1111/j.1365-2486.2010.02375.x
+- Buckley, Thomas N. "Modeling stomatal conductance." _Plant physiology_ 174, no. 2 (2017): 572-582.
+- Roelfsema, M. Rob G., and Rainer Hedrich. "In the light of stomatal opening: new insights into ‘the Watergate’." _New Phytologist_ 167, no. 3 (2005): 665-691.
 
 # Limitations of process implementation used in target ESM
 - Assumes one-to-one immediate stomatal response; does not capture dynamic stomatal lag or hysteresis.
@@ -46,9 +48,9 @@ Where:
 
 # Observations
 
-Note this is hard to measure directly - usually inferred from measuring transpiration/evaporation but porometers and gas analyzers can measure directrly 
-## techniques
-Jaume Flexas, Christine Scoffoni, Jorge Gago, Lawren Sack, Leaf mesophyll conductance and leaf hydraulic conductance: an introduction to their measurement and coordination, _Journal of Experimental Botany_, Volume 64, Issue 13, October 2013, Pages 3965–3981, [https://doi.org/10.1093/jxb/ert319](https://doi.org/10.1093/jxb/ert319)
+[[output_stomatal conductance]]
+
+
 
 ## datasets
 
@@ -57,21 +59,25 @@ Jaume Flexas, Christine Scoffoni, Jorge Gago, Lawren Sack, Leaf mesophyll conduc
 
 
 	
-### fluxes
-- stratum_conductance (gs_sunlit, gs_shade)
+### flux names
+- stratum_conductance, gs_sunlit,  gs_shade
 
 
 
 
-## parameters 
+## parameter 
 - gs_max
 - stomatal_fraction
 - Multiplier parameters (all epc structure)
 	- vpd  vpd_close, vpd_open
 	- psi - psi_close, psi_open (LWP_min_spring), LWP_threshold, LWP_slp, LWP_intercpt
 	- tavg - topt, tcoef
+	- -epc.ppfd_coef
 - co2_scalar (stubbed or unity)
-- epc.ppfd_coef
+
+### inputs
+
+
 
 ## Code source file and function names in which process is updated
 - compute_vascular_stratum_conductance.c

@@ -91,10 +91,10 @@ not observable directly but calibrated from observations of [[process_stomatal_c
 
 # Details from target ESM model code
 ## Variables
-### fluxes
+### flux names
 - gs (stomatal conductance, as modulated by LWP multiplier)
 
-### stores/state variable
+### stores/state variable names
 - leaf_water_potential (inferred or estimated from soil water status and transpiration)
 - LWP_predawn, psi_predawn
 
@@ -103,10 +103,13 @@ not observable directly but calibrated from observations of [[process_stomatal_c
 	. m_LWP
 
 
-## parameters (name)
+## parameters
 - `psi_threshold`  
 - `psi_wilting
 - psi_open
+
+# inputs
+
 
 ## Code source file and function names in which process is updated
 - `leaf_conductance_LWP_curve  

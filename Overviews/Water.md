@@ -17,5 +17,22 @@ overview_scale: [plot]
 
 
 
+process_transpiration
+	[[process_stomatal_conductance]]
+	
 
-[[process_stomatal_conductance]]
+process_soil_evaporation
+
+process_litter_evaporation
+
+process_canopy_evaporation
+
+
+# List of Outputs Included
+
+output_transpiration
+	[[output_stomatal conductance]]
+
+# List of Inputs Included
+
+[[input_precipitation]]
