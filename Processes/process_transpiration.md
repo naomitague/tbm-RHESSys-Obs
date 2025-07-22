@@ -34,6 +34,7 @@ Where:
 ## Alternative Model References
 
 - Jones, H.G. (1992). Plants and Microclimate: A Quantitative Approach to Environmental Plant Physiology. Cambridge University Press.
+- Mencuccini, M., Manzoni, S. and Christoffersen, B., 2019. Modelling water fluxes in plants: from tissues to biosphere. _New Phytologist_, _222_(3), pp.1207-1222.
 
 # Limitations of process implementation used in target ESM
 - Assumes steady-state conditions and daily average climate drivers.
