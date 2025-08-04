@@ -10,6 +10,8 @@ tags: [parameter]
 # If used to create other parameters, list here
 
 
+# Dynamically computed:  
+Yes/No
 # Select one or more from: geology physical,  geochemical, plant, landuse, snow, climate
 parameter_classification []
 
@@ -44,7 +46,7 @@ parameter_function:
 	 # From Model Calibration Database
 	 # From Model Calibration Papers
 
-# Conceptual model of parameter variation or controls on the parameter  (for physical parameters only)
+# Conceptual or where available mathematical model of parameter variation or controls on the parameter  (for physical parameters only)
 	# Summary
 	 # References
 

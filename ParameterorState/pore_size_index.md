@@ -10,6 +10,9 @@ Target ESM: RHESSys, [https://github.com/RHESSys/RHESSys.git](https://github.com
 
 [[Field Capacity]]
 
+# Dynamically computed:  
+No
+
 # Select one or more from: geology physical,  geochemical, plant, landuse, snow, climate
 
 parameter\_classification [geology]
@@ -68,7 +71,7 @@ UNSODA database provides measured values for a variety of soil types: [https://a
  # From Model Calibration Papers
 ```
 
-# Conceptual model of parameter variation or controls on the parameter  (for physical parameters only)
+# Conceptual or where available mathematical model of parameter variation or controls on the parameter  (for physical parameters only)
 
 ```
 # Summary

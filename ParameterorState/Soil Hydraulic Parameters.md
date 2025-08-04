@@ -52,6 +52,12 @@ Van Looy, Kris, Johan Bouma, Michael Herbst, John Koestel, Budiman Minasny, Umak
 Review of measurements and estimation 
 Vereecken, Harry, Wulf Amelung, Sara L. Bauke, Heye Bogena, Nicolas Brüggemann, Carsten Montzka, Jan Vanderborght et al.  2022. "Soil hydrology in the Earth system." _Nature Reviews Earth & Environment_ 3, no. 9: 573-587.
 
+
+new approaches to inferring soil properties and incorporating these into models
+Bonetti, S., Wei, Z., & Or, D. (2021). A framework for quantifying hydrologic effects of soil structure across scales. _Communications Earth & Environment_, _2_(1), 107.
+
+Fatichi, Simone, Dani Or, Robert Walko, Harry Vereecken, Michael H. Young, Teamrat A. Ghezzehei, Tomislav Hengl, Stefan Kollet, Nurit Agam, and Roni Avissar. "Soil structure is an important omission in Earth System Models." _Nature communications_ 11, no. 1 (2020): 522.
+
 Limitations - Research Frontiers
 
 How do soil hydraulic properties change at shorter time scales

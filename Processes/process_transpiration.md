@@ -3,7 +3,7 @@ Target ESM: RHESSys, https://github.com/RHESSys/RHESSys.git, develop branch
 # Tags
 process
 
-alias:: [transpiration, plant water loss]
+alias:: [transpiration, plant water loss], T
 
 # Conceptual model
 Transpiration is the process by which water is transported from the soil by plant roots through vascular structure of the stem, and eventually lost to the atmosphere as vapor through stomata. It is driven by available energy, water and diffusion gradients  and regulated by plant stomatal function.  Available energy at the leaf surface varies with leaf albedo, angle and distribution and incoming radiation from the atmosphere. Water availability depends on water storage in soil and sometime groundwater and root distribution access to that storage. Diffusion gradients depend on vapor pressure deficit and windspeed.  The model accounts for differential radiation exposure sunlit and shaded leaves separately and integrates modifiers from stomatal conductance, boundary layer conductance, and available radiation.

@@ -10,6 +10,10 @@ Target ESM: RHESSys, https://github.com/RHESSys/RHESSys.git, develop branch
 # If used to create other parameters, list here
 
 [[Field Capacity]]
+
+# Dynamically computed:  
+No
+
 # Select one or more from: geology physical,  geochemical, plant, landuse, snow, climate
 parameter_classification [geology]
 
@@ -54,7 +58,7 @@ UNSODA the UNsaturated SOil hydraulic DAtabase (UNSODA) USDA https://agdatacommo
 	 # From Model Calibration Database
 	 # From Model Calibration Papers
 
-# Conceptual model of parameter variation or controls on the parameter  (for physical parameters only)
+# Conceptual or where available mathematical model of parameter variation or controls on the parameter  (for physical parameters only)
 	# Summary
 
 

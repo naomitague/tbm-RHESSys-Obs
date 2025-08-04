@@ -4,7 +4,11 @@ parameter_name:  $\psi$ _wilt
 aliases: $\psi$_threshold, $\psi$_wilt, $\psi$_wilting, $\psi$_close
 
 Target ESM: RHESSys, https://github.com/RHESSys/RHESSys.git, develop branch 
+# If used to create other parameters, list here
 
+
+# Dynamically computed:  
+No
 
 # Select one or more from: geology physical,  geochemical, plant, landuse, snow, climate
 parameter_classification [plant]
@@ -47,7 +51,7 @@ Modulates the multiplier applied to potential stomatal conductance based on curr
 	 Values may be tuned per plant functional type or vegetation stratum, Site-specific values often derived from hydraulic vulnerability curves or inferred from stomatal behavior studies.
 	 
 
-# Conceptual model of parameter variation or controls on the parameter  (for physical parameters only)
+# Conceptual or where available mathematical model of parameter variation or controls on the parameter  (for physical parameters only)
 ## Summary
 Stomatal conductance declines linearly from psi_threshold to psi_wilt, reaching zero below psi_wilt.
 

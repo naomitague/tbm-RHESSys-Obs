@@ -11,7 +11,7 @@ output_units: [mm/day]
 
 # Description
 Transpiration represents the flux of water vapor from plant surfaces to the atmosphere, primarily through stomatal openings. It is influenced by meteorological conditions, leaf physiology, and soil water availability. 
-Importantly, transpiration is not evaporation - so observations of ET needed to be combined with the partition of water flux between transpiration and evaporation
+Importantly, transpiration is not evaporation - so observations of ET [[output_et]] needed to be combined with the partitioning of water flux between transpiration and evaporation
 
 # Process Links
 [[process_transpiration]]
@@ -42,4 +42,13 @@ Satellite ET estimates https://www.earthdata.nasa.gov/topics/atmosphere/evapotra
 # Model Output Paper Examples
 ## References
 - Wang, Kaicun, and Robert E. Dickinson. "A review of global terrestrial evapotranspiration: Observation, modeling, climatology, and climatic variability." _Reviews of Geophysics_ 50, no. 2 (2012).
-- Kool, D., Agam, N., Lazarovitch, N., Heitman, J.L., Sauer, T.J. and Ben-Gal, A., 2014. A review of approaches for evapotranspiration partitioning. _Agricultural and forest meteorology_, _184_, pp.56-70.
+
+Partitioning (e.g extracting transpiration from ET measurement)
+
+Stoy, Paul C., Tarek S. El-Madany, Joshua B. Fisher, Pierre Gentine, Tobias Gerken, Stephen P. Good, Anne Klosterhalfen et al. "Reviews and syntheses: Turning the challenges of partitioning ecosystem evaporation and transpiration into opportunities." _Biogeosciences_ 16, no. 19 (2019): 3747-3775.
+
+- Rothfuss, Y., Quade, M., Brüggemann, N., Graf, A., Vereecken, H., and Dubbert, M.: Reviews and syntheses: Gaining insights into evapotranspiration partitioning with novel isotopic monitoring methods, Biogeosciences, 18, 3701–3732, https://doi.org/10.5194/bg-18-3701-2021, 2021.
+
+
+Note globally transpiration dominates ET losses (often 80-90 % of ET losses)
+Jasechko, Scott, Zachary D. Sharp, John J. Gibson, S. Jean Birks, Yi Yi, and Peter J. Fawcett. "Terrestrial water fluxes dominated by transpiration." _Nature_ 496, no. 7445 (2013): 347-350.

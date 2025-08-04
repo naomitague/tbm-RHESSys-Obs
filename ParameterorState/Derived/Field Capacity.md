@@ -10,6 +10,8 @@ Target ESM: RHESSys, https://github.com/RHESSys/RHESSys.git, develop branch
 
 # If used to create other parameters, list here
 
+# Dynamically computed:  
+Yes
 
 # Select one or more from: geology physical,  geochemical, plant, landuse, snow, climate
 parameter_classification [geology]
@@ -89,10 +91,17 @@ where
     
 - **z**: depth variable
     
-- **b**: pore-size index (soil parameter)
+- **b**: [[pore_size_index]]
 
 More recent research also highlights conditions where field capacity may change at relatively short (annual-decadal)
  time scales - Most hydrologic models do not account for time-varying field capacity (although ecohydrologic models will account for changing field capacity with depth and account for variation. in plant accessible field capacity as rooting depth change)
-# Ref
+# References
+
+Equations used in RHESSys above
+
+Clapp, Roger B., and George M. Hornberger. "Empirical equations for some soil hydraulic properties." _Water resources research_ 14, no. 4 (1978): 601-604.
+
+
+Van Genuchten, M. Th, and D. R. Nielsen. "On describing and predicting the hydraulic properties." In _Annales Geophysicae_, vol. 3, no. 5, pp. 615-628. 1985.
 
 See general references for [[Soil Hydraulic Parameters]]
