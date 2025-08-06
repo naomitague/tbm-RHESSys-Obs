@@ -4,7 +4,7 @@ Target ESM: RHESSys, https://github.com/RHESSys/RHESSys.git, develop branch
 # Tags
 process
 
-# Conceptual model
+# Description/Conceptual Model
 # Model Name (as implemented in the target ESM if there is a standard name e.g Penman monteith)
 # Equation as used in target ESM
 
