@@ -23,7 +23,7 @@ Where:
 - \( c_p \): specific heat of air
 - VPD: vapor pressure deficit
 - \( r_a \): aerodynamic resistance
-- \( r_s \): surface resistance (includes stomatal conductance)
+- [[process_stomatal_conductance]]\( r_s \): surface resistance (includes stomatal conductance)
 - \( \gamma \): psychrometric constant
 
 # Literature References

@@ -151,18 +151,28 @@
             "id": "0163fcbd01fa64a1",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "5d06c639329a43c2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "ObsOutput/output_et.md",
+                "file": "Rooting Depth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "output_et"
+              "title": "Rooting Depth"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -334,19 +344,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0163fcbd01fa64a1",
+  "active": "5d06c639329a43c2",
   "lastOpenFiles": [
+    "Rooting Depth.md",
     "Processes/process_transpiration.md",
+    "Untitled.canvas",
+    "Overviews/Water.md",
+    "ParameterorState/Soil Moisture - Root Accessible.md",
+    "Processes/process_soil_evaporation.md",
+    "Processes/process_stomatal_conductance.md",
+    "Processes/process_stomatal_conductance_leaf_water_potential_response.md",
+    "ObsOutput/output_transpiration.md",
     "ObsOutput/output_et.md",
     "Inputs/input_precipitation.md",
     "Soil Moisture.md",
-    "Processes/process_stomatal_conductance.md",
-    "ObsOutput/output_transpiration.md",
-    "Processes/process_stomatal_conductance_leaf_water_potential_response.md",
-    "Processes/process_soil_evaporation.md",
     "Templates/Process Template.md",
     "ParameterorState/Soil Hydraulic Parameters.md",
-    "ParameterorState/Soil Moisture - Root Accessible.md",
     "Root water storage capacity.md",
     "ParameterorState/Derived/Field Capacity.md",
     "ParameterorState/pore_size_index.md",
@@ -360,8 +373,6 @@
     "Soil Moisture - Root Accessible.md",
     "Untitled 1.md",
     "Soil Evaporation.md",
-    "Templates/Observation-Output Template.md",
-    "Templates/Parameter Family Template.md",
     "ParameterorState/Derived",
     "ParameterorState",
     "Figures/patch_hydro.jpg",
@@ -377,7 +388,6 @@
     "Figures/C_N.jpg",
     "Figures/vert_hydro.jpg",
     "Untitled 2.canvas",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
