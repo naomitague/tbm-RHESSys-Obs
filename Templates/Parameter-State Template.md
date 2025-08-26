@@ -42,7 +42,7 @@ parameter_function:
 
 # Sources
 	# Databases
-	# References on measuring/observing
+	# Measurements
 	 # From Model Calibration Database
 	 # From Model Calibration Papers
 

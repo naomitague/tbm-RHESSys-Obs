@@ -53,3 +53,4 @@ parameter_function:
 Tumber‐Dávila, S. J., Schenk, H. J., Du, E., & Jackson, R. B. (2022). Plant sizes and shapes above and belowground and their interactions with climate. _New Phytologist_, _235_(3), 1032-1056.
 
 Gao, Hongkai, Markus Hrachowitz, Lan Wang-Erlandsson, Fabrizio Fenicia, Qiaojuan Xi, Jianyang Xia, Wei Shao, Ge Sun, and Hubert HG Savenije. "Root zone in the Earth system." _Hydrology and Earth System Sciences_ 28, no. 19 (2024): 4477-4499.
+

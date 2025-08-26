@@ -58,8 +58,7 @@ K  determines the upper limit of vertical and lateral drainage unsatured parts o
 # Databases
 ```
 
-# References on measuring observing
-
+# Measurements
  - Pedotransfer functions estimate K_s based on texture, bulk density, and organic matter content.
 
 
