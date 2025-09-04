@@ -26,7 +26,7 @@ Where:
 - [[process_stomatal_conductance]]\( r_s \): surface resistance (includes stomatal conductance)
 - \( \gamma \): psychrometric constant
 
-# Literature References
+#  References
 ## References for model in Target ESM
 - Monteith, J.L. (1965). Evaporation and environment. Symposia of the Society for Experimental Biology, 19, 205-234.
 

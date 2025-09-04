@@ -8,7 +8,7 @@ process
 # Model Name (as implemented in the target ESM if there is a standard name e.g Penman monteith)
 # Equation as used in target ESM
 
-# Literature References
+#  References
 ## References for model in Target ESM
 ## Alternative Model References
 

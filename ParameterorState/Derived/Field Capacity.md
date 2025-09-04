@@ -72,16 +72,20 @@ RHESSys uses two formulations to compute **relative saturation at field capacity
 
 
  Clapp & Hornberger (1978)
-```math
-S_{fc}(z) = \left( \frac{\psi_{ae}}{(z_s - z)} \right)^{b}
-```
+
+$$
+S_{fc}(z) = \left( \frac{\psi_{ae}}{(z_s - z)} \right)^{b)
+$$
+
 
 or 
 
  van Genuchten & Nielsen (1984)
-```math
+
+$$
 Sfc(z)=1−(zs−zψae)bS_{fc}(z) = 1 - \left( \frac{z_s - z}{\psi_{ae}} \right)^{b} 
-```
+$$
+
 
 where
 
@@ -100,7 +104,6 @@ More recent research also highlights conditions where field capacity may change 
 Equations used in RHESSys above
 
 Clapp, Roger B., and George M. Hornberger. "Empirical equations for some soil hydraulic properties." _Water resources research_ 14, no. 4 (1978): 601-604.
-
 
 Van Genuchten, M. Th, and D. R. Nielsen. "On describing and predicting the hydraulic properties." In _Annales Geophysicae_, vol. 3, no. 5, pp. 615-628. 1985.
 

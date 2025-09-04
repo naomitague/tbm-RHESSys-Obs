@@ -27,7 +27,7 @@ parameter_realism:
 # Specify units (e.g., mm/day, gC/m², dimensionless, percent)
 parameter_units: 
 
-# Select one: rate, capacity, ratio, count, store,other
+# Select one: rate, capacity, ratio, count, store, depth, other
 parameter_function: 
 
 
@@ -49,4 +49,6 @@ parameter_function:
 # Conceptual or where available mathematical model of parameter variation or controls on the parameter  (for physical parameters only)
 	# Summary
 	 # References
+
+# RHESSys code
 

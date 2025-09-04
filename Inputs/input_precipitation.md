@@ -47,7 +47,7 @@ Keller, Arturo A., Kendra L. Garner, Nalini Rao, Eladio Knipping, and Jeffrey Th
 Maraun, Douglas, F. Wetterhall, A. M. Ireson, R. E. Chandler, E. J. Kendon, Martin Widmann, S. Brienen et al. "Precipitation downscaling under climate change: Recent developments to bridge the gap between dynamical models and the end user." _Reviews of geophysics_ 48, no. 3 (2010)
 
 
-
+Partition between rain and snow 
 		  
 # Reference
 	

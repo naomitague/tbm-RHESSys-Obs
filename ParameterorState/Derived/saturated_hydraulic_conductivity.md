@@ -68,7 +68,7 @@ K\_s determines the upper limit of vertical and lateral drainage in saturated or
  - Pedotransfer functions estimate K_s based on texture, bulk density, and organic matter content.
 
 
-# Conceptual model of parameter variation or controls on the parameter  (for physical parameters only)
+# Conceptual model of parameter variation   (for physical parameters only)
 
 ```
 # Summary
