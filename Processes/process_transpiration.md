@@ -6,7 +6,10 @@ process
 alias:: [transpiration, plant water loss], T
 
 # # Description/Conceptual model
-Transpiration is the process by which water is transported from the soil by plant roots through vascular structure of the stem, and eventually lost to the atmosphere as vapor through stomata. It is driven by available energy, water and diffusion gradients  and regulated by plant stomatal function.  Available energy at the leaf surface varies with leaf albedo, angle and distribution and incoming radiation from the atmosphere. Water availability depends on water storage in soil and sometime groundwater and root distribution access to that storage. Diffusion gradients depend on vapor pressure deficit and windspeed.  The model accounts for differential radiation exposure sunlit and shaded leaves separately and integrates modifiers from stomatal conductance, boundary layer conductance, and available radiation.
+Transpiration is the process by which water is transported from the soil by plant roots through vascular structure of the stem, and eventually lost to the atmosphere as vapor through stomata. It is driven by available energy, water and diffusion gradients  and regulated by plant stomatal function.  Available energy at the leaf surface varies with leaf albedo, angle and distribution and incoming radiation from the atmosphere. Water availability depends on water storage in soil and sometime groundwater and root distribution access to that storage. Diffusion gradients depend on vapor pressure deficit and windspeed.  Plant can also actively control transpiration by changing [[process_stomatal_conductance]] stomatal conductance. 
+
+Scaling from leaf transpiration to tree to stand requires making assumptions about how energy and water availability and diffuse gradients vary through canopies. Response tend to be highly non-linear so simple averaging leads to significant errors. Most models accounts for differential radiation exposure in sunlit and shaded leaves and assume exponential (or other) declines in radiation, windspeed and other diffuse parameters, from the top of canopies to ground surface.
+
 
 # Model Name (as implemented in the target ESM if there is a standard name e.g Penman monteith)
 Penman-Monteith equation

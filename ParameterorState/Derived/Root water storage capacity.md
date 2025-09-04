@@ -50,13 +50,13 @@ Stocker, Benjamin D., Shersingh Joseph Tumber-Dávila, Alexandra G. Konings, Mar
 influences [[Soil Moisture - Root Accessible]]
 
 
-# Sources
+# Observations
 	# Databases
 	# References on measuring/observing
 	 # From Model Calibration Database
 	 # From Model Calibration Papers
 
-# Conceptual or where available mathematical model of parameter variation or controls on the parameter  (for physical parameters only)
+# Equation/Model
 	# Summary
 
 For saturated storage capacity - this will simply be the integration of porosity over depth. Many models assume that porosity is constant over the rooting depth - or that porosity decays expontially )
