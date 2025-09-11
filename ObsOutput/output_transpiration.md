@@ -31,6 +31,17 @@ Importantly, transpiration is not evaporation - so observations of ET [[output_e
 - **Remote sensing** using thermal imaging to infer transpiration rates:
   - Fisher, J.B., et al. (2020). The future of evapotranspiration: Global requirements for ecosystem functioning, carbon and climate feedbacks, agricultural management, and water resources. _Water Resources Research_, 56(4), e2019WR026236.
   - Zhang, Ke, John S. Kimball, and Steven W. Running. "A review of remote sensing based actual evapotranspiration estimation." _Wiley interdisciplinary reviews: Water_ 3, no. 6 (2016): 834-853.
+  -
+- Partitioning (e.g extracting transpiration from ET measurement)
+
+Stoy, Paul C., Tarek S. El-Madany, Joshua B. Fisher, Pierre Gentine, Tobias Gerken, Stephen P. Good, Anne Klosterhalfen et al. "Reviews and syntheses: Turning the challenges of partitioning ecosystem evaporation and transpiration into opportunities." _Biogeosciences_ 16, no. 19 (2019): 3747-3775.
+
+- Rothfuss, Y., Quade, M., Brüggemann, N., Graf, A., Vereecken, H., and Dubbert, M.: Reviews and syntheses: Gaining insights into evapotranspiration partitioning with novel isotopic monitoring methods, Biogeosciences, 18, 3701–3732, https://doi.org/10.5194/bg-18-3701-2021, 2021.
+
+
+Note globally transpiration dominates ET losses (often 80-90 % of ET losses)
+Jasechko, Scott, Zachary D. Sharp, John J. Gibson, S. Jean Birks, Yi Yi, and Peter J. Fawcett. "Terrestrial water fluxes dominated by transpiration." _Nature_ 496, no. 7445 (2013): 347-35
+
 
 ## Sources/Database
 - FLUXNET https://fluxnet.org/
@@ -43,12 +54,4 @@ Satellite ET estimates https://www.earthdata.nasa.gov/topics/atmosphere/evapotra
 ## References
 - Wang, Kaicun, and Robert E. Dickinson. "A review of global terrestrial evapotranspiration: Observation, modeling, climatology, and climatic variability." _Reviews of Geophysics_ 50, no. 2 (2012).
 
-Partitioning (e.g extracting transpiration from ET measurement)
-
-Stoy, Paul C., Tarek S. El-Madany, Joshua B. Fisher, Pierre Gentine, Tobias Gerken, Stephen P. Good, Anne Klosterhalfen et al. "Reviews and syntheses: Turning the challenges of partitioning ecosystem evaporation and transpiration into opportunities." _Biogeosciences_ 16, no. 19 (2019): 3747-3775.
-
-- Rothfuss, Y., Quade, M., Brüggemann, N., Graf, A., Vereecken, H., and Dubbert, M.: Reviews and syntheses: Gaining insights into evapotranspiration partitioning with novel isotopic monitoring methods, Biogeosciences, 18, 3701–3732, https://doi.org/10.5194/bg-18-3701-2021, 2021.
-
-
-Note globally transpiration dominates ET losses (often 80-90 % of ET losses)
-Jasechko, Scott, Zachary D. Sharp, John J. Gibson, S. Jean Birks, Yi Yi, and Peter J. Fawcett. "Terrestrial water fluxes dominated by transpiration." _Nature_ 496, no. 7445 (2013): 347-350.
+0.
