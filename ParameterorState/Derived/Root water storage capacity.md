@@ -35,11 +35,12 @@ parameter_function: capacity
 
 # Description
 
-Volume or depth of water that can be stored that is accessible by roots. This will depend on both the distribution of roots and physical properties of the soil [[Soil Hydraulic Parameters]] as well as sapprolite and fractured bedrock. Note that there are two ways to think about this - the maximum storage where all porosity is accessible by roots when filled; so storage capacity is the integration of porosity over the rooting distributions. Alternatively given that drainage often occurs rapidly, some models/estimates consider the integration of field capacity minus wilting point ofter root distribution
+Volume or depth of water that can be stored that is accessible by roots. This will depend on both the distribution of roots and physical properties of the  [[Soil Hydraulic Parameters]] as well as sapprolite and fractured bedrock. Note that there are two ways to think about this - the maximum storage where all porosity is accessible by roots when filled; so storage capacity is the integration of porosity over the rooting distributions. Alternatively given that drainage often occurs rapidly, some models/estimates consider the integration of field capacity minus wilting point over the root distribution
 
 # Range
 
-0 - 1500mm 
+0 - 1500mm of water
+
 Stocker, Benjamin D., Shersingh Joseph Tumber-Dávila, Alexandra G. Konings, Martha C. Anderson, Christopher Hain, and Robert B. Jackson. "Global patterns of water storage in the rooting zones of vegetation." _Nature geoscience_ 16, no. 3 (2023): 250-256.
 
 
@@ -59,7 +60,7 @@ influences [[Soil Moisture - Root Accessible]]
 # Equation/Model
 	# Summary
 
-For saturated storage capacity - this will simply be the integration of porosity over depth. Many models assume that porosity is constant over the rooting depth - or that porosity decays expontially )
+For saturated storage capacity - this will simply be the integration of porosity over depth. Many models assume that porosity is constant over the rooting depth - or that porosity decays exponentially )
 ### Porosity Function
 
 $$

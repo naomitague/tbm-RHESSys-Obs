@@ -67,15 +67,16 @@ $$
 For **non-trees**:
 
 $$
-z_{root}=3.0⋅(2.0⋅Croot)γkrootz_{root} = \frac{3.0 \cdot \left( 2.0 \cdot C_{root} \right)^{rgd}}{rdp} 
+z_{root} = \frac{3.0 \cdot \left( 2.0 \cdot C_{root} \right)^{rgd}}{rdp} 
 $$
 
 With post-processing constraints:
 
 $$
-z_{root}=min⁡(z_{root},z_{max_root},z_{soil})
+z_{root}=min⁡(z_{root},z_{max_{root}},z_{soil})
 $$
 
+Uses uses direction and distribution of roots (that might vary by species) to translate ca
 ### 🔧 Parameters
 
 | Parameter | Units  | Description                                        |
@@ -101,7 +102,7 @@ Other approach partition a root carbon into a specific root surface area per car
 
 - Allocation favors shallower, wetter layers.
 
-The weighting factor \( w_i \) is used to determine how root carbon is distributed across soil layers, favoring **shallower** and **wetter** layers (Parton et al., 1978):
+The weighting factor \( w_i \) is used to determine how root carbon is distributed across soil layers, favoring **shallower** and **wetter** layers 
 
 $$
 w_i = \left(1 - \frac{z_i}{Z_{max}}\right) \cdot \frac{\theta_i - \theta_{wilt}}{\theta_{ref} - \theta_{wilt}}

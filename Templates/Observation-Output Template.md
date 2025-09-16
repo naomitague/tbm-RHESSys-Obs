@@ -18,11 +18,12 @@ output_kind: []
 
 # Measurements
 	 # Techniques, Product Evaluation, Error/Uncertainty Papers
+	
 	 # Sources/Database
-	 # Sources papers
+	 
+
 	
 	
-# Model Output Paper Examples
-	References
+
 
 	
