@@ -150,12 +150,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ParameterorState/Soil Moisture - Unsaturated.md",
+                "file": "ObsOutput/output_stomatal conductance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Soil Moisture - Unsaturated"
+              "title": "output_stomatal conductance"
             }
           },
           {
@@ -480,6 +480,8 @@
   },
   "active": "4777af62b540f3af",
   "lastOpenFiles": [
+    "Untitled.base",
+    "ParameterorState/Soil Moisture - Unsaturated.md",
     "Processes/process_stomatal_conductance.md",
     "Templates/Observation-Output Template.md",
     "ParameterorState/Derived/Root water storage capacity.md",
@@ -504,10 +506,7 @@
     "CanopyRadiationTransfer.md",
     "ParameterorState/Psi_air_entry.md",
     "ParameterorState/pore_size_index.md",
-    "Templates/Parameter-State Template.md",
     "Untitled.canvas",
-    "Untitled 1.md",
-    "Untitled.base",
     "Templates/untitled folder",
     "Figures/patch_hydro.jpg",
     "Figures/patch_CN.jpg",
